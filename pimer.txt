@@ -10,3 +10,7 @@ git config --global user.email "tu@email.com"
 git config --global user.name "Tu Nombre"
 recuerda que guión solo (-) es para letra, y doble guión (--) es para indicar palabra en los comandos.
 Existen muchas otras configuraciones de Git que puedes encontrar ejecutando el comando git config --list (o solo git config para ver una explicación más detallada).
+EL comando "git show" nos muestra los cambios que han existido sobre los dos últimos commits de un archivo y es muy útil para detectar cúando se produjeron cambios en un tiempo cercano y así ver cómo lo podemos solucionar.
+Si queremos ver la diferencia entre una versión y otra especificamente, podemos usar el comando "git diff commitA commitB".
+Para obtener los ID de tus commits usas el comando "git log".
+Despues ejecutas el comando "git diff (con los identificadores de los commits a comparar)". 
