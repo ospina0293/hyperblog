@@ -14,3 +14,4 @@ EL comando "git show" nos muestra los cambios que han existido sobre los dos úl
 Si queremos ver la diferencia entre una versión y otra especificamente, podemos usar el comando "git diff commitA commitB".
 Para obtener los ID de tus commits usas el comando "git log".
 Despues ejecutas el comando "git diff (con los identificadores de los commits a comparar)". 
+Cuando utilices git diff es recomendable poner el commit más viejo al principio, de esta manera es mas intuitivo de leer lo que nos responde git.
