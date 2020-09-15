@@ -1,4 +1,4 @@
-Si quieres ver los archivos ocultos de una carpeta puedes habilitar la opción de Vista > Mostrar u ocultar > Elementos ocultos (en Windows) o ejecutar el comando ls -a.
+Si deseas ver los archivos ocultos de una carpeta puedes habilitar la opción de Vista > Mostrar u ocultar > Elementos ocultos (en Windows) o ejecutar el comando ls -a.
 
 Le indicaremos a Git que queremos crear un nuevo repositorio para utilizar su sistema de control de versiones. Solo debemos posicionarnos en la carpeta raíz de nuestro proyecto y ejecutar el comando git init.
 
@@ -8,4 +8,5 @@ Recuerda que Git está optimizado para trabajar en equipo, por lo tanto, debemos
 
 git config --global user.email "tu@email.com"
 git config --global user.name "Tu Nombre"
+recuerda que guión solo (-) es para letra, y doble guión (--) es para indicar palabra en los comandos.
 Existen muchas otras configuraciones de Git que puedes encontrar ejecutando el comando git config --list (o solo git config para ver una explicación más detallada).
